@@ -118,7 +118,6 @@ body a{
 p.top_desc{
 	color: #EDF6FF;
 	font-size: 1.8em;
-	line-height:0em;
 	text-transform:uppercase;
 	margin-bottom: 20px;
 	font-weight: 300;
@@ -589,6 +588,13 @@ h3.m_3{
 	line-height:1.5em;
 }
 /*--contact-*/
+
+.progress-bar.animate {
+   width: 100%;
+   top: 200px;
+   background-color: #800000;
+}
+
 .contact{
 	background: url(../images/contact.png);
 	padding:5em 0 2em;
@@ -684,8 +690,8 @@ ul.contact_info span.msg:hover{
 	outline: none;
 	margin: 0.2em;
 	font-size: 0.85em;
-	color: #D6D5D5;
-	background: #FFF;
+	color: black;
+	background: #F9F8F8;
 	border: none;
 	border-radius: 0.3em;
 	-webkit-border-radius: 0.3em;
@@ -702,7 +708,7 @@ ul.contact_info span.msg:hover{
 	margin: 1em 0;
 	border: none;
 	outline: none;
-	color:#D6D5D5;
+	color: black;
 	font-size:1em;
 	background: #F9F8F8;
 	text-align: center;
